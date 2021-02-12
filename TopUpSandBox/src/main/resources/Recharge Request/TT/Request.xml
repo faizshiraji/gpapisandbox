@@ -1,1 +1,1 @@
-http://192.168.99.33:9999/cgevcinterface.php?username=cloudwell&password=cloudwell*0203&dealer=8801553947091&ms=8801535236598&operation=recharge&amount=20000&tid=11860000000050163763&pin=7272
+http://192.168.99.33:9999/cgevcinterface.php?username=username&password=password*1234&dealer=8801553947091&ms=8801535236598&operation=recharge&amount=20000&tid=11860000000050163763&pin=1234
