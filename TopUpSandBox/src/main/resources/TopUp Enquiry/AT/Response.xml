@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE COMMAND PUBLIC "-//Ocam//DTD XML Command 1.0//EN" "xml/command.dtd">
+<COMMAND>
+    <TYPE>EXRCTRFRESP</TYPE>
+    <TXNSTATUS>200</TXNSTATUS>
+    <DATE>18/12/2020 15:33:24</DATE>
+    <EXTREFNUM>PDS0000000050091115</EXTREFNUM>
+    <TXNID>R201218.1533.230085</TXNID>
+    <MESSAGE>Recharge 30 Tk to 1631908535 is successful. Transaction number is R201218.1533.230085.Your new balance is 588403.19 TAKA. Thank You.</MESSAGE>
+</COMMAND>

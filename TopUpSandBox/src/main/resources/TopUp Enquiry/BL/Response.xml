@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE COMMAND PUBLIC "-//Ocam//DTD XML Command 1.0//EN" "xml/command.dtd">
+<COMMAND>
+    <TYPE>EXRCTRFRESP</TYPE>
+    <TXNSTATUS>200</TXNSTATUS>
+    <DATE>17/12/2020 17:11:22</DATE>
+    <EXTREFNUM>PDS0000000050054196</EXTREFNUM>
+    <TXNID>R201217.1711.2600aa</TXNID>
+    <MESSAGE>205:Recharge Request of TK 27 for mobile no 01992270978, transaction ID R201217.1711.2600aa is successful. your account balance is TK 286167.55.</MESSAGE>
+</COMMAND>
