@@ -9,4 +9,6 @@ import com.topupsandbox.entities.request.GPRequest;
 @Repository
 public interface GPRequestRepo extends JpaRepository<GPRequest, Integer> {
 
+	GPRequest findByextrefnum(String extrefnum);
+
 }
