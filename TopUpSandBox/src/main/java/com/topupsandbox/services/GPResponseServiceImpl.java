@@ -49,10 +49,5 @@ public class GPResponseServiceImpl implements GPResponseService {
 		gpResponseRepo.delete(gpResponse);
 		
 	}
-
-
-
-
-	
 	
 }

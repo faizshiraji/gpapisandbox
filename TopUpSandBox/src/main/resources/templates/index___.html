@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+<meta charset="ISO-8859-1">
+<title>Telecom Portal</title>
+</head>
+<body>
+<div>
+	<h3>Welcome to Telecom Portal</h3>
+	<form th:action="@{/Logout}" method="post">
+		<input type="submit" value="Logout">	
+	</form>
+</div>
+</body>
+</html>

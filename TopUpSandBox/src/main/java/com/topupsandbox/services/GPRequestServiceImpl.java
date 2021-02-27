@@ -37,13 +37,13 @@ public class GPRequestServiceImpl implements GPRequestService {
 
 	@Override
 	public GPRequest updateGpRequest(GPRequest gpRequest) {
-		return null;
+		return gpRequestRepo.save(gpRequest);
 	}
 
 	@Override
 	public void deleteGpRequest(int gpRequestId) {
-		// TODO Auto-generated method stub
-		
+		GPRequest gpRequest = gpRequestRepo.getOne(gpRequestId);
+		gpRequestRepo.delete(gpRequest);
 	}
 
 }

@@ -8,13 +8,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "gprequest")
 public class GPRequest {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnore
 	private int id;
 	private String type;
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date date;
 	private String extnwcode;
 	private int msisdn;

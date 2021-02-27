@@ -8,15 +8,20 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "gpresponse")
 public class GPResponse {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnore
 	private int id;
 	private String type;
 	private int txnstatus;
+	@JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
 	private Date date;
 	private String extrefnum;
 	private double amount;
